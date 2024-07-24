@@ -1,0 +1,291 @@
+{
+    "0": {
+        "label": "Apple",
+        "grades": {
+            "A": {
+                "max": 1,
+                "min": 0.85
+            },
+            "B": {
+                "max": 0.85,
+                "min": 0.6
+            },
+            "C": {
+                "max": 0.6,
+                "min": -1
+            }
+        },
+        "models": {
+            "0": {
+                "name": "Size",
+                "weight": 0.1,
+                "classes": {
+                    "0": {
+                        "label": "Large (> 60mm)",
+                        "score": 1
+                    },
+                    "1": {
+                        "label": "Medium (50mm - 60mm)",
+                        "score": 0.8
+                    },
+                    "2": {
+                        "label": "Small (<50mm)",
+                        "score": 0.6
+                    }
+                }
+            },
+            "1": {
+                "name": "Shape",
+                "weight": 0.15,
+                "classes": {
+                    "0": {
+                        "label": "Flat",
+                        "score": 0.7
+                    },
+                    "1": {
+                        "label": "Round",
+                        "score": 0.8
+                    },
+                    "2": {
+                        "label": "Conical",
+                        "score": 1
+                    }
+                }
+            },
+            "2": {
+                "name": "Colour",
+                "weight": 0.25,
+                "classes": {
+                    "0": {
+                        "label": "Apple Red Delicious",
+                        "score": 1
+                    },
+                    "1": {
+                        "label": "Apple Ginger Gold",
+                        "score": 0.6
+                    },
+                    "2": {
+                        "label": "Apple Honey Crisp",
+                        "score": 0.8
+                    }
+                }
+            },
+            "3": {
+                "name": "Surface",
+                "weight": 0.5,
+                "classes": {
+                    "0": {
+                        "label": "0% Rotten",
+                        "score": 1
+                    },
+                    "1": {
+                        "label": "25% Rotten",
+                        "score": 0.6
+                    },
+                    "2": {
+                        "label": "50% Rotten",
+                        "score": 0.2
+                    },
+                    "3": {
+                        "label": "75% Rotten",
+                        "score": 0.1
+                    },
+                    "4": {
+                        "label": "100% Rotten",
+                        "score": 0.05
+                    }
+                }
+            }
+        }
+    },
+    "1": {
+        "label": "Mango",
+        "grades": {
+            "A": {
+                "max": 1,
+                "min": 0.95
+            },
+            "B1": {
+                "max": 0.95,
+                "min": 0.80
+            },
+            "B2": {
+                "max": 0.80,
+                "min": 0.6
+            },
+            "C": {
+                "max": 0.6,
+                "min": -1
+            }
+        },
+        "models": {
+            "0": {
+                "name": "Size",
+                "weight": 0.3,
+                "classes": {
+                    "0": {
+                        "label": "Large (14 cm)",
+                        "score": 1
+                    },
+                    "1": {
+                        "label": "Medium (12 cm)",
+                        "score": 0.75
+                    },
+                    "2": {
+                        "label": "Small (10 cm)",
+                        "score": 0.5
+                    }
+                }
+            },
+            "1": {
+                "name": "Shape",
+                "weight": 0.15,
+                "classes": {
+                    "0": {
+                        "label": "Oblong",
+                        "score": 1
+                    },
+                    "1": {
+                        "label": "Round",
+                        "score": 0.7
+                    }
+                }
+            },
+            "2": {
+                "name": "Colour",
+                "weight": 0.2,
+                "classes": {
+                    "0": {
+                        "label": "Yellowish Green",
+                        "score": 1
+                    },
+                    "1": {
+                        "label": "Dull Green",
+                        "score": 0.8
+                    },
+                    "2": {
+                        "label": "Yellow With Black Spots",
+                        "score": 0.3
+                    }
+                }
+            },
+            "3": {
+                "name": "Surface",
+                "weight": 0.35,
+                "classes": {
+                    "0": {
+                        "label": "Perfectly-Rippen",
+                        "score": 1
+                    },
+                    "1": {
+                        "label": "Under-Rippen",
+                        "score": 0.8
+                    },
+                    "2": {
+                        "label": "Black Spots - Mild",
+                        "score": 0.65
+                    },
+                    "3": {
+                        "label": "Black Spots - Heavily",
+                        "score": 0.05
+                    }
+                }
+            }
+        }
+    },
+    "2": {
+        "label": "Strawberry",
+        "grades": {
+            "A": {
+                "max": 1,
+                "min": 0.85
+            },
+            "B": {
+                "max": 0.85,
+                "min": 0.6
+            },
+            "C": {
+                "max": 0.6,
+                "min": -1
+            }
+        },
+        "models": {
+            "0": {
+                "name": "Size",
+                "weight": 0.3,
+                "classes": {
+                    "0": {
+                        "label": "Small (25mm - 35mm)",
+                        "score": 0.5
+                    },
+                    "1": {
+                        "label": "Medium (35mm - 45mm)",
+                        "score": 0.75
+                    },
+                    "2": {
+                        "label": "Large (45mm <)",
+                        "score": 1
+                    }
+                }
+            },
+            "1": {
+                "name": "Shape",
+                "weight": 0.2,
+                "classes": {
+                    "0": {
+                        "label": "Conical",
+                        "score": 1
+                    },
+                    "1": {
+                        "label": "Long Conical",
+                        "score": 0.8
+                    },
+                    "2": {
+                        "label": "Short Wedge",
+                        "score": 0.55
+                    }
+                }
+            },
+            "2": {
+                "name": "Colour",
+                "weight": 0.2,
+                "classes": {
+                    "0": {
+                        "label": "Red",
+                        "score": 1
+                    },
+                    "1": {
+                        "label": "Turing",
+                        "score": 0.8
+                    },
+                    "2": {
+                        "label": "White",
+                        "score": 0.6
+                    }
+                }
+            },
+            "3": {
+                "name": "Surface",
+                "weight": 0.3,
+                "classes": {
+                    "0": {
+                        "label": "Mature",
+                        "score": 1
+                    },
+                    "1": {
+                        "label": "Half-Mature",
+                        "score": 0.5
+                    },
+                    "2": {
+                        "label": "Immature",
+                        "score": 0.2
+                    },
+                    "3": {
+                        "label": "Rotten",
+                        "score": 0.05
+                    }
+                }
+            }
+        }
+    }
+}

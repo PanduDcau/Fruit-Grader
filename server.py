@@ -23,8 +23,7 @@ logger = logging.getLogger(__name__)
 
 if DATABASE_INTEGRATION:
     # Connect to the MongoDB Atlas cluster
-    client = MongoClient("mongodb+srv:"
-                         "//dasabro:Dasabro_123@cluster1.e7bgf6n.mongodb.net/?retryWrites=true&w=majority")
+    client = MongoClient("servername")
 
     # Select the database and collection
     db = client["fruit-grader"]

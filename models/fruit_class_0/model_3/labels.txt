@@ -1,0 +1,5 @@
+0 0% Rotten 
+1 25% Rotten
+2 50% Rotten
+3 75% Rotten
+4 100% Rotten

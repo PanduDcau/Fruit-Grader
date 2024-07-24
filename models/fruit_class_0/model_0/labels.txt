@@ -1,0 +1,3 @@
+0 Large (> 60mm)
+1 Medium (50mm - 60mm)
+2 Small (<50mm)

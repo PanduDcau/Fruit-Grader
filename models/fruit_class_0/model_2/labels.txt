@@ -1,0 +1,3 @@
+0 Apple Red Delicious
+1 Apple Ginger Gold
+2 Apple Honey Crisp

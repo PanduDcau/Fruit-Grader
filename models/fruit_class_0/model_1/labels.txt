@@ -1,0 +1,3 @@
+0 Flat
+1 Round
+2 Conical

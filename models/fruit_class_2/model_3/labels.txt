@@ -1,0 +1,4 @@
+0 Mature
+1 Half-Mature
+2 Immature
+3 Rotten
